@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+.carousel-inner img{
+width: 100%;
+height: 80vh;
+object-fit: cover;
+}
+.card-style{
+    width: 80%;
+    height: 450px;
+    /* border: 1px solid red; */
+    box-shadow: 5px 5px 15px gray;
+}
+.card-style:hover{
+    background-color: rgb(26, 154, 239);
+    transition: all 2s linear;
+    transform: scale(1.1);
+    /* transform: skew(); */
+}
+.button:hover{
+background-color: green;
+transition: all 2s linear;
+    transform: scale(1.1);
+}
+ 
